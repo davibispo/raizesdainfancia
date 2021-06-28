@@ -1,13 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Raízes da Infância</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="{{asset('css/app.css')}}" type="text/css">
 </head>
 <body>
-    
+
+<div class="jumbotron">
+
+</div>
+<div class="container">
+    <p>Raízes da Infância</p>
+</div>
+
+<div class="container content">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="menu-lateral">
+                <ul class="nav navbar-expand-sm nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#home"><b>HOME</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#menu1"><b>SOBRE MIM</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#menu2"><b>SERVIÇOS</b></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-lateral">
+                <h3>Conteúdo 1</h3>
+            </div>
+            <div class="menu-lateral">
+                <h3>Conteúdo 2</h3>
+            </div>
+            <div class="menu-lateral">
+                <h3>Conteúdo 3</h3>
+            </div>
+        </div>
+
+        <div class="col-sm-8 main-content">
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div id="home" class="container tab-pane active"><br>
+                    <h3>HOME</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div id="menu1" class="container tab-pane fade"><br>
+                    <h3>Menu 1</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div id="menu2" class="container tab-pane fade"><br>
+                    <h3>Menu 2</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron-footer">
+    <div class="row">
+        <div class="col-sm-3">
+            <b>UM POUCO SOBRE NÓS</b>
+        </div>
+        <div class="col-sm-3">
+            <b>NAVEGAÇÃO</b>
+        </div>
+        <div class="col-sm-3">
+            <b>NOSSOS SERVIÇOS</b>
+        </div>
+        <div class="col-sm-3">
+            <b>COMPRE AGORA</b>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
