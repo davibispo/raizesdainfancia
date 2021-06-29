@@ -8,17 +8,18 @@ body{
     background-color: #efebeaff;
 }
 .main-content{
-    border-radius: 5px 5px 5px 5px;
     margin: 0;
     background-color: white;
     padding-bottom: 25px;
+    border-top: #efebeaff solid 10px;
+    border-left: #efebeaff solid 10px;
+    border-right: #efebeaff solid 20px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .menu-lateral{
     font-size: 14px;
-    padding: 10px;
-    border-radius: 5px 5px 5px 5px;
-    background-color: white;
+    background-color: #efebeaff;
 }
 
 .sub-menu-lateral{
@@ -28,7 +29,6 @@ body{
     padding: 10px;
     border-radius: 5px 5px 5px 5px;
     background-color: white;
-
 }
 
 .content{ /*Caixas do menu lateral + Conteúdo principal lado direito*/
@@ -40,6 +40,7 @@ body{
     position: absolute;
     background-color: white;
     height: 100px;
+    width: 83%;
     top: 30px;
     display: flex;
     align-items: center;
@@ -73,11 +74,13 @@ body{
 }
 
 .nav-link:hover{
-    color:#efebeaff;
+    color:white;
     background-color: #9dbfaeff;
 }
 
+}
 .nav-link:active{
     color:#7b8c86ff;
+    background-color: #9dbfaeff;
 }
 
