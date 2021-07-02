@@ -26,9 +26,10 @@
 }
 
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS';
     background-color: #efebeaff;
 }
+
 .main-content{
     margin: 0;
     background-color: white;
@@ -70,6 +71,7 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px gray;
 }
 
 .jumbotron{ /*Faixa de cima que fica por trás*/
@@ -94,7 +96,7 @@ body{
 }
 
 .nav-link {
-    color:#7b8c86ff;
+    color: black;
 }
 
 .nav-link:hover{

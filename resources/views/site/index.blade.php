@@ -21,8 +21,8 @@
         <div class="col-sm-3">Karla Bispo</div>
         <div class="col-sm-3">Endereço</div>
         <div class="col-sm-3">
-            <a class="link-redes" href="" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
-            <a class="link-redes" href="" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+            <a class="link-redes" href="https://www.facebook.com/raizesdainfancia" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+            <a class="link-redes" href="https://www.instagram.com/raizesdainfancia" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
         </div>
         <div class="col-sm-3">
             <a class="link-telefone" href="https://web.whatsapp.com/send?phone=5582993487949" target="_blank">
@@ -36,7 +36,7 @@
     <div class="row">
         <div class="col-sm-3 menu-lateral">
             <div class="sub-menu-lateral">
-                <p style="text-align: center;">NAVEGAÇÃO</p>
+                <p style="text-align: center; color: #7b8c86ff">NAVEGAÇÃO</p>
                 <ul class="nav navbar-expand-sm nav-pills flex-column">
                     <li class="nav-item">
                         <a class="nav-link active" data-toggle="pill" href="#home"><b>HOME</b></a>
@@ -46,6 +46,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="pill" href="#menu2"><b>SERVIÇOS</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#menu3"><b>CONTATO</b></a>
                     </li>
                 </ul>
             </div>
@@ -95,7 +98,7 @@
                 <!-- main content 1 -->
                 <div id="menu1" class="container tab-pane fade"><br>
                     <div class="container">
-                        <h3>Sobre min</h3>
+                        <h3>Sobre Mim</h3>
                         <hr>
                         <p>
                             Passagem padrão original de Lorem Ipsum, usada desde o século XVI.
@@ -114,6 +117,14 @@
                 <div id="menu2" class="container tab-pane fade"><br>
                     <div class="container">
                         <h3>Serviços</h3>
+                        <hr>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
+                </div>
+                <!-- main content 3 CONTATO -->
+                <div id="menu3" class="container tab-pane fade"><br>
+                    <div class="container">
+                        <h3>Contato</h3>
                         <hr>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                     </div>
