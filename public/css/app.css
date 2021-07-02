@@ -1,3 +1,25 @@
+.link-telefone{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    border-radius: 25px;
+    padding: 10px;
+}
+.link-telefone:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #7b8c86ff;
+}
+
+.link-redes{
+    text-decoration: none;
+    color: #7b8c86ff;
+}
+
+.link-redes:hover{
+    color: #9dbfaeff;
+}
+
 .carousel-inner img {
     width: 100%;
     height: 100%;
@@ -10,11 +32,13 @@ body{
 .main-content{
     margin: 0;
     background-color: white;
-    padding-bottom: 25px;
+    padding: 20px;
+    padding-bottom: 40px;
     border-top: #efebeaff solid 10px;
     border-left: #efebeaff solid 10px;
     border-right: #efebeaff solid 20px;
     border-radius: 5px 5px 5px 5px;
+    text-align: justify;
 }
 
 .menu-lateral{
@@ -78,9 +102,10 @@ body{
     background-color: #9dbfaeff;
 }
 
-}
-.nav-link:active{
-    color:#7b8c86ff;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
     background-color: #9dbfaeff;
 }
+
+
 
